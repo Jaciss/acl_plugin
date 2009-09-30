@@ -1,8 +1,8 @@
 <h2 class="section">Access Control List Management</h2>
 <ul class="acl">
-  <li><?php print $html->image('/acl/img/tango/32x32/apps/system-users.png') ?><?php print $html->link('Manage Aros', '/wf/acl/aros') ?></li>
-  <li><?php print $html->image('/acl/img/tango/32x32/apps/preferences-system-windows.png') ?><?php print $html->link('Manage Acos', '/wf/acl/acos') ?></li>
-  <li><?php print $html->image('/acl/img/tango/32x32/emblems/emblem-readonly.png') ?><?php print $html->link('Manage Permissions', '/wf/acl/permissions') ?></li>
+  <li><?php print $html->image('/acl/img/tango/32x32/apps/system-users.png') ?><?php print $html->link('Manage Aros', array('action'=>'aros', 'admin'=>true)) ?></li>
+  <li><?php print $html->image('/acl/img/tango/32x32/apps/preferences-system-windows.png') ?><?php print $html->link('Manage Acos', array('action'=>'acos', 'admin'=>true)) ?></li>
+  <li><?php print $html->image('/acl/img/tango/32x32/emblems/emblem-readonly.png') ?><?php print $html->link('Manage Permissions', array('action'=>'permissions', 'admin'=>true)) ?></li>
 </ul>
 <br />
 
