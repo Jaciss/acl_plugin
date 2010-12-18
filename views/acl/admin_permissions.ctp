@@ -45,7 +45,7 @@ function setup() {
 }
 setup();
 </script>
-<?php print $this->renderElement('acl_menu') ?>
+<?php print $this->element('acl_menu') ?>
 <div>
   <?php print $html->image('/acl/img/tango/32x32/emblems/emblem-readonly.png', array('align' => 'absmiddle')) ?>
   <b>Manage Permissions</b>

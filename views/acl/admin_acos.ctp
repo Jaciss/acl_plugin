@@ -105,7 +105,7 @@ function setup() {
 	acl_aco_editor_reload();
 }
 </script>
-<?php print $this->renderElement('acl_menu') ?>
+<?php print $this->element('acl_menu') ?>
 <div>
   <?php print $html->image('/acl/img/tango/32x32/apps/preferences-system-windows.png', array('align' => 'absmiddle')) ?>
   <b>Manage Acos</b>

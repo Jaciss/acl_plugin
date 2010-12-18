@@ -110,7 +110,7 @@ function setup() {
 	acl_aro_editor_reload();
 }
 </script>
-<?php print $this->renderElement('acl_menu') ?>
+<?php print $this->element('acl_menu') ?>
 <div>
   <?php print $html->image('/acl/img/tango/32x32/apps/system-users.png', array('align' => 'absmiddle')) ?>
   <b>Manage Aros</b>
